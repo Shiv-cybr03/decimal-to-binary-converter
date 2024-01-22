@@ -19,14 +19,14 @@ while True:
         binary_number = input("Enter a binary number: ")
         try:
             decimal_result = binary_to_decimal(binary_number)
-            print(f"The decimal equivalent of {binary_number} is: {decimal_result}")
+            print(f"The binary equivalent of {binary_number} is: {decimal_result}")
         except ValueError:
             print("Invalid binary number. Please enter a valid binary number.")
     elif num == 2:
         decimal_number = int(input("Enter a decimal number: "))
         try:
             binary_result = decimal_to_binary(decimal_number)
-            print(f"The hexa decimal equivalent of {decimal_number} is: {binary_result}")
+            print(f"The decimal number equivalent of {decimal_number} is: {binary_result}")
         except ValueError:
             print("Invalid decimal. Please enter a valid decimal number.")
     else:
