@@ -12,7 +12,7 @@ while True:
         print("Exiting the Program")
         break
     else:
-        print("**********************************")
+        print("***********************************************************")
     print("""Chose option:- \n 1. binary_to_decimal \n 2. decimal_to_binary""")
     num = int(input("Choise the option:"))
     if num == 1:
