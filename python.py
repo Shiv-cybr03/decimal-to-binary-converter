@@ -26,7 +26,7 @@ while True:
         decimal_number = int(input("Enter a decimal number: "))
         try:
             binary_result = decimal_to_binary(decimal_number)
-            print(f"The binary equivalent of {decimal_number} is: {binary_result}")
+            print(f"The hexa decimal equivalent of {decimal_number} is: {binary_result}")
         except ValueError:
             print("Invalid decimal. Please enter a valid decimal number.")
     else:
